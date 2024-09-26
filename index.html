@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>формы</title>
+</head>
+<body>
+<form>
+    <p>имя:</p>
+    <input type="text" name="name" value="" placeholder="введите имя" required>  
+    <P>email:</P>
+    <input type="email"name="email" value="">
+    <p>пароль:</p>
+    <input type="password"name="password" value="">
+    <p>возраст</p>
+    <input type="number" name="age" value="">
+    <br> <br>
+    <button type="submit">отправить на сервер</button>
+</form>
+
+<form>
+    <h2>сеансы</h2>
+<p>кинотеатр</p>
+<input type="text" name="cinema" placeholder="введите название кинотеатра" required>
+<p>фильмы:</p>
+<input type="text" name="film" placeholder="введите название фильма" required>
+<p>время</p>
+<input type="time" name="time" placeholder="введите время" required>
+<p>стоимость</p>
+<input type="number" name="price" placeholder="введите стоимость" required>
+<br> <br>
+<button type="submit">отправить данные о фильме</button><br><br>
+<button type="reset">очистить данные</button><br><br>
+<button type="button">обычная кнопка</button>
+</form>
+
+<br><br>
+
+<form>
+<h2>какие ваши любимые цвета?</h2>
+<label><input type="checkbox" name="color" value="yellow" disabled checked>желтый</label> <br>
+<label><input type="checkbox" name="color" value="red" autofocus>красный</label> <br>
+<label><input type="checkbox" name="color" value="blue">синий</label> <br><br>
+<button type="submit">отправить цвет</button>
+</form>
+<br><br>
+<form>
+<h2>город в котором я живу</h2>
+<label>
+    <input type="radio" name="city" value="tyumen">тюмень
+</label><br>
+<label>
+    <input type="radio" name="city" value="ekaterinburg">екатеринбург
+</label>
+<label><br>
+    <input type="radio" name="city" value="moscow">москва
+</label><br><br>
+<button type="submit">отправить город</button>
+</form><br>
+<input type="range"><br><br>
+<input type="color"><br><br>
+<input type="file">
+</body>
+</html>
